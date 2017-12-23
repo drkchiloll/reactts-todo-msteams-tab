@@ -1,0 +1,32 @@
+{
+  "manifestVersion": "0.4",
+  "appId": "<<CLIENT_ID>>",
+  "developer": {
+    "name": "<<WHATEVER>>",
+    "websiteUrl": "https://EXAMPLE.COM/",
+    "termsOfUseUrl": "https://EXAMPLE.COM/tou.html",
+    "privacyUrl": "https://EXAMPLE.COM/privacy.html"
+  },
+  "version": "0.3",
+  "validDomains": ["<<TENANT DOMAIN>>"],
+    "tabs": [
+      {
+        "id": "57aa06ad-2425-4245-b898-b16216822a57",
+        "name": "<<NAME OF YOUR APP>",
+        "description": {
+          "short": "<<>>",
+          "full": "<<>>"
+        },
+        "icons": {
+          "44": "tab-44.png",
+          "88": "tab-88.png"
+        },
+        "accentColor": "#223344",
+        "configUrl": "https://<<YOUR WEBSITE - PAGE B4 TAB IS CREATED>>/config",
+        "canUpdateConfig": true
+      }
+    ],
+  "signInUrl": "https://<<WHERE DOES THE TEAMS AUTH TAKE PLACE>>/auth",
+  "bots": [],
+  "needsIdentity": false
+}
