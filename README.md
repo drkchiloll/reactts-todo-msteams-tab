@@ -1,4 +1,4 @@
-# Frontend Boilerplate with React, Redux & TypeScript
+# ReactJS Typescript Microsoft Teams Tab TODO MVC/O365 Outlook Tasks
 
 A bare minimum react-webpack-typescript boilerplate with TodoMVC example integrated into Microsoft Teams as a TAB and Access to Office 365 Graph API specifically __OUTLOOK Tasks__.
 
